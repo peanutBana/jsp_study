@@ -31,7 +31,6 @@ public class CalcServlet extends HttpServlet {
 		case "*": res = n1 * n2; break;
 		case "/": res = n1 / n2; break;
 		}
-		System.out.println(n1+" op "+n2+"= "+res);
 	response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.append("<!doctype html><html><head><title>Hello World Servlet</title></head><body>")
