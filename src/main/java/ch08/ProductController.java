@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/pcontrol")
 public class ProductController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	ProductService service = new ProductService();
+	ProductService service;
 
 	@Override
 	public void init(ServletConfig config) throws ServletException {
